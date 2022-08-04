@@ -3,7 +3,6 @@
 	padding: 0;
 	margin: 0;
 	text-decoration: none;
-	outline: none;
 }
 
 html {
@@ -17,10 +16,6 @@ body {
 
 
 /** Main */
-input:focus, textarea:focus, select:focus {
-	outline: none !important; 
-}
-
 .container {
 	margin: 0 75px;
 }
