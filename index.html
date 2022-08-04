@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+   <title>Young Store | Korean Clothes</title>
+
+	<!-- icons -->
+	<link rel="apple-touch-icon" sizes="57x57" href="images/icons/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="images/icons/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="images/icons/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="images/icons/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="images/icons/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="iamges/icons/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="iamges/icons/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="iamges/icons/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="iamges/icons/apple-icon-180x180.png">
+	<link rel="apple-touch-icon" href="images/icons/apple-icon-precomposed.png">
+	<link rel="apple-touch-icon" href="images/icons/apple-icon.png">
+	<link rel="icon" type="image/png" sizes="36x36"  href="images/icons/android-icon-36x36.png">
+	<link rel="icon" type="image/png" sizes="48x48"  href="images/icons/android-icon-48x48.png">
+	<link rel="icon" type="image/png" sizes="72x72"  href="images/icons/android-icon-72x72.png">
+	<link rel="icon" type="image/png" sizes="96x96"  href="images/icons/android-icon-96x96.png">
+	<link rel="icon" type="image/png" sizes="144x144"  href="images/icons/android-icon-144x144.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="images/icons/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="images/icons/favicon-16x16.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="images/icons/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="images/icons/favicon-96x96.png">
+	<link rel="icon" type="image/png" href="images/icons.ico">
+	<link rel="manifest" href="images/icons/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="images/icons/ms-icon-70x70.png">
+	<meta name="msapplication-TileImage" content="images/icons/ms-icon-144x144.png">
+	<meta name="msapplication-TileImage" content="images/icons/ms-icon-150x150.png">
+	<meta name="msapplication-TileImage" content="images/icons/ms-icon-310x310.png">
+	<meta name="theme-color" content="#ffffff">
+	
+	<!-- CSS -->
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="css/items.css">
+	<!-- Fonts -->
+	<link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@900&display=swap" rel="stylesheet"> 
+	<!-- Font Awesome -->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" rel='stylesheet'>
+	<!-- jQuery CDN -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body data-nanobar="#ff9800">
+	<!-- Nanobar - (Java Script) -->
+	<script src="js/nanobar.js"></script>
+
+	<!-- Loader -->
+	<div id="page_preloader" class="preloader">
+		<div class="loader"></div>
+	</div>
+		
+	<!-- Progress bar (in the right side) -->
+	<div id="progress_bar"></div>
+	<div id="scrollPath"></div>
+		
+	<!-- Scroll up button (in the buttom-right side) -->
+	<i class="fas fa-angles-up scroll_up_button"></i>
+
+	<!-- navigation -->
+	<header class="header" id="header">
+		<nav class="nav container">
+			<!-- logo -->
+			<a href="#" onclick="window.location.reload()" class="nav_logo">Young <span>Store</span></a>
+			
+			<!-- items -->
+			<div class="nav_menu" id="nav_menu">
+				<ul class="nav_list">
+					<li class="nav_item">
+						<a href="#home" onmouseover="after(this)" onmouseout="before(this)" class="nav_link">
+							Home
+						</a>
+					</li>
+					<li class="nav_item">
+						<a href="#aboutus" onmouseover="after(this)" onmouseout="before(this)" class="nav_link">
+							About us
+						</a>
+					</li>
+					<li class="nav_item">
+						<a href="#products" onmouseover="after(this)" onmouseout="before(this)" class="nav_link">
+							Products
+						</a>
+					</li>
+					<li class="nav_item">
+						<a href="#ordering" onmouseover="after(this)" onmouseout="before(this)" class="nav_link">
+							Ordering
+						</a>
+					</li>
+					<li class="nav_item">
+						<a href="#contacts" onmouseover="after(this)" onmouseout="before(this)" class="nav_link">
+							Contacts
+						</a>
+					</li>
+				</ul>
+			</div>
+			
+			<!-- menu -->
+			<div class="nav_toggle">
+				<span></span>
+			</div>
+		</nav>
+	</header>
+	
+	<!-- Home section -->
+	<section class="home_section" id="home">
+		<div class="shape_1"></div>
+		
+		<div class="home_content">
+			<div class="container">
+				<!-- main text -->
+				<div class="home_data">
+					<h4>since 2015</h4>
+					<h1>✯Young's Store✯</h1>
+					<h2>Korean Clothes</h2>
+				</div>
+
+				<!-- social links -->
+				<div class="home_data">
+					<a href="https://wa.me/77759764165" class="home_icon">
+						<i class="fab fa-whatsapp"></i>
+					</a>
+					<a href="https://instagram.com/zhassulaan__?igshid=YmMyMTA2M2Y" class="home_icon">
+						<i class="fab fa-instagram"></i>
+					</a>
+					<a href="https://www.facebook.com/young.flovver" class="home_icon">
+						<i class="fab fa-facebook"></i>
+					</a>
+					<a href="https://msng.link/o/?young_flovver=tg" class="home_icon">
+						<i class="fab fa-telegram"></i>
+					</a>
+				</div>
+			</div>
+		</div>
+
+		<!-- scroll down button -->
+		<a href="#aboutus" class="scroll_down">
+			<img src="images/arrow.png" alt="down">
+		</a>
+		</div>
+	</section>
+
+	<!-- About us section -->
+	<section class="about section" id="aboutus">
+		<div class="container">
+			<!-- title -->
+			<h1 class="section_title">About us</h1>
+
+			<div class="about_content wrap">
+				<div class="about_image">
+					<!-- img -->
+					<div class="shape_2"></div>
+					<img src="images/me.jpeg" alt="my picture">
+				</div>
+				
+				<div class="about_info">
+					<!-- text -->
+					<p class="about_text">Explore the Newest Collections of Premium Korean Clothing at Young's Store. Update your look and stay in trend. Now you can feel like your idol. Order clothes according to your taste and your order will come to you in just one week completely free of charge.</p>
+					<p class="about_edition">Last updated 3 mins ago</p>
+	
+					<!-- our companies stats -->
+					<div class="stats wrap">
+						<div class="stat_box">
+							<h2 class="about_value">13ᵗʰ</h2>
+							<h5 class="about_name">Place in KZ</h5>
+						</div>
+	
+						<div class="stat_box">
+							<h2 class="about_value">65739</h2>
+							<h5 class="about_name">Users</h5>
+						</div>
+	
+						<div class="stat_box">
+							<h2 class="about_value">5000+</h2>
+							<h5 class="about_name">Goods</h5>
+						</div>
+							
+						<div class="stat_box">
+							<h2 class="about_value">5</h2>
+							<h5 class="about_name">Stars</h5>
+						</div>
+					</div>
+
+					<!-- button -->
+					<a href="tel:+77759764165">
+						<button class="button">Contact us</button>
+					</a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- divider -->
+	<div class="divider"></div>
+
+	<!-- Products section -->
+	<section class="products section" id="products">
+		<div class="container">
+			<!-- title -->
+			<h1 class="section_title">Products</h1>
+
+			<div class="wrap">
+				<!-- items -->
+				<div class="goods">
+					<div class="goods_inner">
+			         <img src="images/1.png" alt="good" class="products_image">
+			         
+						<div class="overlay">
+							<h4 class="products_title">Luhan</h4>
+						</div>
+					</div>
+				</div>
+
+				<div class="goods">
+					<div class="goods_inner">
+			         <img src="images/2.png" alt="good" class="products_image">
+			          	
+						<div class="overlay">
+							<h4 class="products_title">Chanyeol</h4>
+			         </div>
+					</div>
+				</div>
+
+				<div class="goods">
+					<div class="goods_inner">
+		            <img src="images/3.png" alt="good" class="products_image">
+		          	
+						<div class="overlay">
+							<h4 class="products_title">Kai</h4>
+			         </div>
+					</div>
+				</div>
+
+				<div class="goods">
+					<div class="goods_inner">
+			         <img src="images/4.png" alt="good" class="products_image">
+			          	
+						<div class="overlay">
+							<h4 class="products_title">SeHun</h4>
+			         </div>
+					</div>
+				</div>
+
+		      <div class="goods">
+					<div class="goods_inner">
+		            <img src="images/5.png" alt="good" class="products_image">
+			         
+						<div class="overlay">
+							<h4 class="products_title">Chen</h4>
+			         </div>
+					</div>
+				</div>
+
+				<div class="goods">
+					<div class="goods_inner">
+		            <img src="images/6.png" alt="good" class="products_image">
+			         
+							<div class="overlay">
+							<h4 class="products_title">Suho</h4>
+			         </div>
+					</div>
+				</div>
+
+				<div class="goods">
+					<div class="goods_inner">
+			         <img src="images/7.png" alt="good" class="products_image">
+			         
+						<div class="overlay">
+							<h4 class="products_title">Jimin</h4>
+			         </div>
+					</div>
+				</div>
+
+				<div class="goods">
+					<div class="goods_inner">
+		            <img src="images/8.png" alt="good" class="products_image">
+			         
+							<div class="overlay">
+							<h4 class="products_title">Nam-joon</h4>
+			         </div>
+					</div>
+				</div>
+
+				<div class="goods">
+					<div class="goods_inner">
+			         <img src="images/9.png" alt="good" class="products_image">
+			          	
+						<div class="overlay">
+							<h4 class="products_title">Jungook</h4>
+			         </div>
+					</div>
+				</div>
+
+				<div class="goods">
+					<div class="goods_inner">
+		            <img src="images/10.png" alt="good" class="products_image">
+			          	
+						<div class="overlay">
+							<h4 class="products_title">Jin</h4>
+			         </div>
+					</div>
+				</div>
+
+				<div class="goods">
+					<div class="goods_inner">
+		            <img src="images/11.png" alt="good" class="products_image">
+			          	
+						<div class="overlay">
+							<h4 class="products_title">Suga</h4>
+			         </div>
+					</div>
+				</div>
+
+				<div class="goods">
+					<div class="goods_inner">
+						<img src="images/12.png" alt="good" class="products_image">
+			         
+						<div class="overlay">
+							<h4 class="products_title">Taehyung</h4>
+			         </div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- divider -->
+	<div class="divider"></div>
+
+	<!-- Ordering section -->
+	<section class="ordering section" id="ordering">
+		<div class="container">
+			<!-- title -->
+			<h1 class="section_title">Ordering</h1>
+
+			<!-- pre-title -->
+			<h1 class="ordering_title">Payment Form</h1>
+			
+			<!-- Form -->
+			<form method="get" class="ordering_form wrap">
+				<div class="ordering_box">
+					<div class="input_group">
+						<h4 class="ordering_name">Full name</h4>
+						<div class="input_box">
+							<input type="text" placeholder="First name" required pattern="^(?=.*[a-z])(?=.*[A-Z])[a-zA-Z]{1,}$" class="ordering_info info1">
+							<i class="fa fa-user ordering_icon"></i>
+						</div>
+						
+						<div class="input_box">
+							<input type="text" placeholder="Last name" required pattern="^(?=.*[a-z])(?=.*[A-Z])[a-zA-Z]{1,}$" class="ordering_info info1">
+							<i class="fa fa-user ordering_icon"></i>
+						</div>
+					</div>
+					
+					<div class="input_group">
+						<h4 class="ordering_name">Country</h4>
+						<div class="input_box">
+							<input type="text" placeholder="Country" required class="ordering_info info1">
+							<i class="fa fa-flag ordering_icon"></i>
+						</div>
+					</div>
+	
+					<div class="input_group">
+						<h4 class="ordering_name">Date of birth</h4>
+						<div class="input_box">
+							<input type="text" placeholder="DD" maxlength="2" class="ordering_info info2">
+							<input type="text" placeholder="MM" maxlength="2" class="ordering_info info2">
+							<input type="text" placeholder="YYYY" maxlength="4" class="ordering_info info2">
+						</div>
+					</div>
+							
+					<div class="input_group">
+						<h4 class="ordering_name">Gender</h4>
+						<div class="input_box">
+							<input type="radio" name="gendar" id="option1" class="ordering_radio">
+							<label for="option1">Male</label>
+							<input type="radio" name="gendar" id="option2" class="ordering_radio">
+							<label for="option2">Female</label>
+						</div>
+					</div>
+				</div>
+
+				<div class="ordering_box">
+					<div class="input_group">
+						<h4 class="ordering_name">Email address</h4>
+						<div class="input_box">
+							<input type="email" placeholder="Email" required class="ordering_info info1">
+							<i class="fa fa-envelope ordering_icon"></i>
+						</div>
+					</div>
+			
+					<div class="input_group payment">
+						<div class="input_box">
+							<h4 class="ordering_name">Payment details</h4>
+							<input type="radio" name="pay" required id="option3" class="ordering_radio">
+							<label for="option3">
+								<i class="fa-brands fa-cc-visa"></i>
+								QIWI
+							</label>
+							<input type="radio" name="pay" required id="option4" class="ordering_radio">
+							<label for="option4">
+								<i class="fa-brands fa-cc-paypal"></i>
+								Kaspi Bank
+							</label>
+						</div>
+					</div>
+
+					<div class="input_group">
+						<div class="input_box">
+							<input type="password" placeholder="Card number" pattern=".{16}" maxlength="16" title="Sixteen numbers" required class="ordering_info info1">
+							<i class="fa fa-credit-card ordering_icon"></i>
+						</div>
+					</div>
+	
+					<div class="input_group">
+						<div class="input_box">
+							<input type="password" placeholder="CVC" pattern=".{3}" maxlength="3" title="Three numbers" required class="ordering_info info1">
+							<i class="fa fa-user ordering_icon"></i>
+						</div>
+					</div>
+					
+					<div class="input_group">
+						<div class="input_box">
+							<input type="text" placeholder="month" pattern=".{2}" maxlength="2" required class="ordering_info info2">
+							<input type="text" placeholder="year" pattern=".{4}" maxlength="4" required class="ordering_info info2">
+						</div>
+					</div>
+					
+					<div class="input_group">
+						<h4 class="ordering_name">Rate our site(between 1 - 10)</h4>
+						<div class="input_box">
+							<input type="number" name="star" min="1" max="10" class="ordering_info info3"><br>
+						</div>
+					</div>
+					
+					<!-- button -->
+					<div>
+						<button type="submit" class="button">Make Order</button>
+					</div>
+				</div>
+			</form>
+		</div>
+	</section>
+	
+	<!-- divider -->
+	<div class="divider"></div>
+
+	<!-- Contacts section -->
+	<section class="contacts section" id="contacts">
+		<div class="container">
+			<!-- title -->
+			<h1 class="section_title">Contacts</h1>
+
+			<!-- image -->
+			<div class="contacts_image"></div>
+
+			<div class="form_outer">
+				<!-- form -->
+				<form class="form_inner">
+					<div class="form_item">
+						<label class="form_name">Name:</label>
+						<input type="text" placeholder="Your name here" pattern="(?=.*[A-Z])[a-z]{1,}" required class="form_value">
+					</div>
+
+					<div class="form_item">
+						<label class="form_name">Email or Phone:</label>
+						<input type="text" placeholder="Your Email or Phone number" pattern="(?=.*[A-Z])[a-z]{1,}" required class="form_value">
+					</div>
+
+					<div class="form_item">
+						<label class="form_name">Message:</label>
+						<textarea placeholder="Your message here" class="form_value"></textarea>
+					</div>
+
+					<div class="form_item">
+						<label class="form_name">Resume: </label>
+						<input type="file" name="cv" required multiple class="form_value form_file">
+					</div>
+
+					<div class="contacts_button">
+						<!-- button -->
+						<button type="submit" class="button">Send message</button>
+					</div>
+				</form>
+			</div>
+
+			<!-- address -->
+			<div class="contacts_info">
+				<div class="info-item">
+					<h5 class="info_title">Address</h5>
+					<p class="info_text">S.Datova 45, Atyrau</p>
+				</div>
+
+				<div class="info-item">
+					<h5 class="info_title">Phone</h5>
+					<p class="info_text">+7 (775) 976-41-65</p>
+				</div>
+
+				<div class="info-item">
+					<h5 class="info_title">Email</h5>
+					<p class="info_text">youngs.store@gmail.com</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Footer section -->
+	<footer  class="footer_section">
+		<div class="footer_socials">
+			<a href="https://instagram.com/zhassulaan__?igshid=YmMyMTA2M2Y" target="_blank" class="footer_social">
+				<i class="fa-brands fa-instagram footer_icon"></i>
+			</a>
+			<a href="https://www.facebook.com/young.flovver" target="_blank" class="footer_social">
+				<i class="fa-brands fa-facebook footer_icon"></i>
+			</a>
+			<a href="https://wa.me/77759764165" target="_blank" class="footer_social">
+				<i class="fa-brands fa-whatsapp footer_icon"></i>
+			</a>
+			<a href="https://msng.link/o/?young_flovver=tg" target="_blank" class="footer_social">
+				<i class="fa-brands fa-telegram footer_icon"></i>
+			</a>
+			<a href="https://mail.google.com/mail/u/0/#inbox?compose=VpCqJTCptGktzQtCcfJfZfGRwzKXScjBqCkrfHRBPblHzwkgdhFMbxvbsxgSzqnbBmMBqpB" target="_blank" class="footer_social">
+				<i class="fa-solid fa-at footer_icon"></i>
+			</a>
+		</div>
+
+		<span class="footer_copy">Created by <a href="#" class="footer_username">zhassulaan__</a> | &copy;2020 All right reserved.</span>
+ 	</footer>
+
+	<!-- Main JS -->
+	<script src="js/main.js"></script>
+	<!-- Loader js (will be displayed before loading the webside) -->
+	<script type="text/javaScript" src="js/loader.js"></script>
+	<!-- Progress bar js (in right side of the webpage) -->
+	<script type="text/javaScript" src="js/progress_bar.js"></script>
+	<!-- Scroll up button js -->
+	<script type="text/javaScript" src="js/scroll_up_button.js"></script>
+</body>
+</html>
